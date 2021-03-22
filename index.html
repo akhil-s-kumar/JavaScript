@@ -10,6 +10,8 @@
     <h1 id="Name">Akhil</h1>
     <h1 class="nameClass">Nikhil</h1>
     <h1>Akhil</h1>
+    <h1 id="test2">Akhil</h1>
+    <h1 id="test3">Akhil</h1>
 
     <script>
         document.getElementById('Name').innerHTML = "Akhil S kumar";
@@ -21,6 +23,39 @@
         document.getElementById('Name').style.display = 'none';
         //Adding Images
         //document.getElementById('Name').src = 'testimg.png';
+
+        //Variables
+        var a = document.getElementById('test2');
+        a.style.color = 'Red';
+        a.style.fontSize = '50px'
+
+        var b = "Traboda";
+        a.innerHTML = b;
+
+        //Assigning multiple variables in a single line
+        var c = document.getElementById("test3");
+        var x, y, z;
+        x = 50;
+        y = 70;
+        z = x+y;
+        c.innerHTML = z;
+
+        //increment in variables
+        // Method 1
+        var d = 5;
+        console.log(d)
+        d= d+1;
+        console.log(d)
+        // Method 2
+        var d  = 7;
+        console.log(d);
+        d+=1;
+        console.log(d);
+        // Method 3
+        var d  = 9;
+        console.log(d);
+        d++;
+        console.log(d);
     </script>
     
 </body>
