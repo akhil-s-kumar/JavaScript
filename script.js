@@ -27,3 +27,11 @@ console.log(myFuncThree("Akhil S Kumar"));
 myFuncFour = c => c;
 
 console.log(myFuncFour("Nikhil S Kumar"));
+
+//objects
+let r = {
+    firstName:"Akhil",
+    lastName:"S Kumar"
+};
+
+console.log(r.firstName)
