@@ -35,3 +35,7 @@ let r = {
 };
 
 console.log(r.firstName)
+
+//arrays
+let myArray = ["Akhil", "S", "Kumar"];
+console.log(myArray[0])
