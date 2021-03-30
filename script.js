@@ -46,4 +46,8 @@ console.log(lenOfStr.length);
 
 //index
 let indexOfStr = 'Akhil S'
-console.log(indexOfStr.indexOf('A')) //other methods like lastindexof, search, includes(True or False) can also be used.
+console.log(indexOfStr.indexOf('A')); //other methods like lastindexof, search, includes(True or False) can also be used.
+
+//Slice method
+let sliceStr = "Akhil"
+console.log(sliceStr.slice(0,4));
