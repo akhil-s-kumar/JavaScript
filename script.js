@@ -59,3 +59,34 @@ console.log(parseInt(strToInt));
 //converting int to str
 let intToStr = 15;
 console.log(intToStr.toString());
+
+//Array methods
+let arrayMethods = ["A", "B", "C"];
+console.log(arrayMethods);
+//updating
+arrayMethods[0] = "Z";
+console.log(arrayMethods);
+//adding element at last
+arrayMethods.push("X");
+console.log(arrayMethods);
+//removing element from last
+arrayMethods.pop();
+console.log(arrayMethods);
+//adding element at first
+arrayMethods.unshift("D")
+console.log(arrayMethods);
+//removing element from first
+arrayMethods.shift();
+console.log(arrayMethods);
+//adding element in position we like
+arrayMethods.splice(1,0,"G","H");
+console.log(arrayMethods);
+//removing element we like
+arrayMethods.splice(1,1);
+console.log(arrayMethods);
+//sorting in forward order
+arrayMethods.sort();
+console.log(arrayMethods);
+//sorting in reverse order
+arrayMethods.reverse();
+console.log(arrayMethods);
