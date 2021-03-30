@@ -42,4 +42,8 @@ console.log(myArray[0])
 
 //length 
 let lenOfStr = "Akhil";
-console.log(lenOfStr.length)
+console.log(lenOfStr.length);
+
+//index
+let indexOfStr = 'Akhil S'
+console.log(indexOfStr.indexOf('A')) //other methods like lastindexof, search, includes(True or False) can also be used.
