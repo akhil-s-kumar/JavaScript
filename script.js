@@ -55,3 +55,7 @@ console.log(sliceStr.slice(0,4));
 //converting str to int
 let strToInt = "15";
 console.log(parseInt(strToInt));
+
+//converting int to str
+let intToStr = 15;
+console.log(intToStr.toString());
