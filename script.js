@@ -45,9 +45,13 @@ let lenOfStr = "Akhil";
 console.log(lenOfStr.length);
 
 //index
-let indexOfStr = 'Akhil S'
+let indexOfStr = 'Akhil S';
 console.log(indexOfStr.indexOf('A')); //other methods like lastindexof, search, includes(True or False) can also be used.
 
 //Slice method
-let sliceStr = "Akhil"
+let sliceStr = "Akhil";
 console.log(sliceStr.slice(0,4));
+
+//converting str to int
+let strToInt = "15";
+console.log(parseInt(strToInt));
