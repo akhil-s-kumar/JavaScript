@@ -90,3 +90,16 @@ console.log(arrayMethods);
 //sorting in reverse order
 arrayMethods.reverse();
 console.log(arrayMethods);
+
+//object methods
+let objMethods = {
+    firstName : "Akhil",
+    lastName : "S Kumar"
+};
+console.log(objMethods);
+//updating values
+objMethods.firstName = "Nikhil";
+console.log(objMethods);
+//deleting values
+delete objMethods.lastName;
+console.log(objMethods);
