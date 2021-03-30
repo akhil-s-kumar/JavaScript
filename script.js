@@ -103,3 +103,13 @@ console.log(objMethods);
 //deleting values
 delete objMethods.lastName;
 console.log(objMethods);
+
+//if else if and else
+let myAge = 8;
+if (myAge>18) {
+    console.log("You are eligible to apply for license.")
+}else if (myAge==18) {
+    console.log("You are eligible.")
+}else {
+    console.log("You are not eligible!")
+}
