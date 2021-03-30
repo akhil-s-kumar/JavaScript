@@ -39,3 +39,7 @@ console.log(r.firstName)
 //arrays
 let myArray = ["Akhil", "S", "Kumar"];
 console.log(myArray[0])
+
+//length 
+let lenOfStr = "Akhil";
+console.log(lenOfStr.length)
