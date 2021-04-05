@@ -113,3 +113,19 @@ if (myAge>18) {
 }else {
     console.log("You are not eligible!")
 }
+
+//switch
+let fruit = "orange";
+switch (fruit){
+    case "Apple":
+        console.log("I bought an Apple");
+        break;
+
+    case "Orange":
+        console.log("I bought an Orange");
+        break;
+
+    default:
+        console.log("Nothing bought!");
+        break;
+}
